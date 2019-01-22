@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600');
+
+/*General styling*/
+body{
+    font-family: 'Lato', sans-serif;
+    color:#505962;
+    margin: 0;
+    
+   
+}
+.row, .container-fluid, .jumbotron{
+    margin: 0;
+}
+
+
+.narrow{
+    width: 75%;
+    margin: 0 auto !important;
+    padding-top: 2rem;
+    
+    
+}
+
+.narrow h1{
+    font-size: 2.4rem;
+}
+
+.btn-secondary{
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: .6rem 1.2rem;
+    color: white;
+    background-color: #1ebba3;
+    border-color: #1ebba3;
+    
+}
+
+.btn-secondary:hover{
+    background-color: #189582;
+    border-color: #189582;
+    
+}
+.offset:before{
+    display: block;
+    content: "";
+    height: 5rem;
+    margin-top: -5rem;
+    
+}
+/*General styling ends*/
+
+
+
+
+/*navbar*/
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0,0,0, 0.7) !important;
+}
+.navbar-brand img{
+    height: 4em;
+    margin: 0;
+    position: absolute;
+    top: 4%;   
+}
+.navbar-nav li{
+    padding-right: .7rem;
+}
+.nav-link{
+    color: white !important;
+    
+}
+.nav-link.active{
+    color: #1ebba3 !important;
+}
+.nav-link:hover{
+    color: #1ebba3 !important; 
+}
+/*navbar end*/
+
+
+
+/*slider*/
+#tcarousel .carousel-item{
+    margin: 0;
+    padding: 0;
+    width: 100wh;
+    height: 90vh;
+}
+.slide1{
+    background: url(img/newf/1.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slide2{
+    background: url(img/newf/2.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slide3{
+    background: url(img/newf/3.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slide4{
+    background: url(img/newf/4.jpg) no-repeat center center;
+    background-size: cover;
+}
+.carousel-caption a{
+    padding-right: .7rem;
+}
+/*
+.carousel-caption h1{
+    color: rgba(0, 0, 0, 0.4    )!important;
+    -webkit-text-stroke: 1px white;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.carousel-caption p{
+    color: black;
+    -webkit-text-stroke: .2px black;
+}
+*/
+.carousel-control-prev span, .carousel-control-next span{
+    background-color: black !important;
+}
+
+/*slider end*/
+
+
+
+/*Feature section*/
+
+.jumbotron{
+    margin: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+}
+.heading{
+    font-size: 1.9rem !important;
+    font-weight: 700 !important;
+    text-transform: capitalize!important;
+
+}
+.heading-underline{
+    width: 3rem !important;
+    height: .2rem !important;
+    background-color: #1ebba3 !important;
+    margin: 0 auto 3rem !important;
+    
+}
+
+.feature svg.svg-inline--fa{
+    color: #1ebba3;
+}
+.feature h3{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+}
+.feature p{
+    font-size: 1.1rem;
+    
+}
+
+/*near By attractions*/
+
+#attractions{
+    
+    border: 1px solid white;
+    background-color: #f7f7f9; 
+    
+}
+#attractions h3.heading{
+    margin-top: 2.5rem;
+}
+.card{
+    margin: auto;
+    width: 20rem;
+}
+/*
+
+*/
+
+/*fixed bg sectionn*/
+.fixed{
+    background-image: url(img/newf/2.jpg);
+    z-index: -1;
+}
+.fixed-background{
+    margin: 0;
+}
+
+.fixed-backgrond p{
+   margin-top: .7rem; 
+}
+.dark{
+    background-color: rgba(0, 0, 0, 0.65) !important;
+    color: white;
+}
+
+.dark svg.svg-inline--fa{
+     color: #1ebba3;
+    font-size: 1.7em;
+    margin: 3rem 0 0;
+}
+.dark p{
+     text-transform: capitalize;
+}
+
+/*Client section*/
+.clients img{
+    width: 100%;
+    border-radius: 50%;
+}
+blockquote .svg-inline--fa{
+    color: #1ebba3;
+    margin: 1rem;
+}
+
+.clients-hr{
+    border-top: .05rem solid #1ebba3;
+}
+/* locateus section*/
+
+.map{
+    
+    height: 350px;
+    width: 75%;
+    padding: 0 !important;
+    border: solid 1px #1ebba3;
+    border-radius: 20px 20px;
+    margin: 0 auto;
+}
+
+.map-btn{
+    
+    margin: 0 auto;
+    position: relative;
+    top: -40px;
+}
+
+/*goup icon*/
+
+#goup{
+    width: 40px;
+    height: 30px;
+    background-color: #1ebba3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;   
+}
+#goup a{
+    text-decoration: none;
+    color: white;
+}
+#goup:hover{
+    box-shadow: 3px 3px 8px #40474e;
+}
+
+
+/*contact section*/
+footer{
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 2rem;
+/*    margin-top: 1rem;*/
+}
+/*
+footer img{
+    margin: 1.5rem 0;
+}
+*/
+
+footer a{
+    color: white;
+}
+footer svg.svg-inline--fa{
+    font-size: 1.6rem;
+    margin: 1.5rem .5rem 0 0;
+}
+footer a:hover{
+    color: #1ebba3 !important;
+    text-decoration: none;
+}
+hr.socket{
+    width: 100%;
+    border-top: .2rem solid #666b71;
+/*    margin-top: .3rem;*/
+}
+
+/*modal seeting*/
+
+.modal img{
+    margin: 0 auto !important;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+form input, textarea{
+    margin: 1rem 10px;
+    width: 100%;
+}
+
+
+/*media queries*/
+
+@media(max-width: 767px) {
+    .clients img{
+        max-width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:575px){
+    .adjust h4{
+        text-align: center;
+        margin-top: 1rem;
+    } 
+   
+    .adjust p{
+        font-size: 17px;
+        display: block;
+        text-align: center;
+        
+    }
+ 
+    
+    .carousel-caption button{
+        margin: .3rem 0 !important;
+    }
+    #attractions .card{
+        width: auto;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    #attractions .card{
+        width: 14rem;
+        
+    }
+}
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
