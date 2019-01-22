@@ -94,19 +94,43 @@ body{
     height: 90vh;
 }
 .slide1{
-    background: url(img/newf/1.jpg) no-repeat center center;
+    background: url(img/8.jpg) no-repeat center center;
     background-size: cover;
 }
 .slide2{
-    background: url(img/newf/2.jpg) no-repeat center center;
+    background: url(img/2.jpg) no-repeat center center;
     background-size: cover;
 }
 .slide3{
-    background: url(img/newf/3.jpg) no-repeat center center;
+    background: url(img/3.jpg) no-repeat center center;
     background-size: cover;
 }
 .slide4{
-    background: url(img/newf/4.jpg) no-repeat center center;
+    background: url(img/9.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slide5{
+    background: url(img/5.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slide6{
+    background: url(img/6.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slide7{
+    background: url(img/7.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slide8{
+    background: url(img/1.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slide9{
+    background: url(img/10.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slide10{
+    background: url(img/4.jpg) no-repeat center center;
     background-size: cover;
 }
 .carousel-caption a{
@@ -188,7 +212,7 @@ body{
 
 /*fixed bg sectionn*/
 .fixed{
-    background-image: url(img/newf/2.jpg);
+    background-image: url(img/9.jpg);
     z-index: -1;
 }
 .fixed-background{
